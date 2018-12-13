@@ -1,32 +1,249 @@
+/*------------------------------*/
+body {
+  background:#f3f3f3;
+  --gray: #2c3e50;
+  --whiteish: #ebebeb;
+  font-family: "Open Sans", "Roboto", "Segoe UI";
+}
+
+.d-flex
+{
+  display: flex;
+  justify-content: center;
+}
+.wrap
+{
+  flex-wrap: wrap;
+}
+/* .Pokemon__basic
+{
+  display: inline-block;
+  margin-right: 400px;
+} */
+.Pokemon__info
+{
+  margin: 1em .5em;
+}
+.Pokemon__move
+{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--gray);
+}
+.Pokemon_text + .Pokemon__move, .Pokemon_text + .Pokemon__ability
+{
+  border-top: 1px solid var(--gray);
+  margin-top:20px;
+}
+.Pokemon__move h4
+{
+  margin: 0px 0px 20px;
+}
+
+.outSide
+{
+    margin: 7px;
+    position: relative;
+    border: 1px solid var(--whiteish);
+}
+.inside
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*height: 100%;
+     width: 100%; */
+    opacity: 0;
+    transition: .1s ease;
+    /* background-color: rgba(206,206,206,0.3); */
+    border-bottom: 2px solid var(--whiteish);
+}
+.outSide:hover .inside
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.insideText
+{
+    font-family: Garamond, "Open Sans", Calibri;
+    color: var(--whiteish);
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: var(--gray);
+}
+.main
+{
+  margin: 0px 5em;
+  text-align: center;
+}
+.mx
+{
+  margin: 0px 10em;
+  margin-bottom: 5em;
+  display: flex;
+}
+.mx > *
+{
+  margin: 0px 20px;
+}
+
+a {
+  /* color: #e74c3c !important; */
+  text-decoration: none;
+  color: var(--whiteish);
+}
+
+button:focus {
+  outline: none;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: var(--gray);
+  /* height: 90px; */
+  padding: 20px;
   color: white;
+  margin-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.App-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Pokemon_title {
+  color: var(--gray);
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0px;
+}
+.Pokemon__supertype{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+  margin-bottom: 0px;
+}
+
+.Pokemon__supertype + .Pokemon_text
+{
+  margin-top: 12px;
+}
+
+.Pokemon_text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.Pokemon_text, .Pokemon__supertype
+{
+  margin-top: 0px;
+}
+.Pokemon__image {
+ height: 500px;
+}
+
+.recipes__subtitle span {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.form__input {
+  background: transparent;
+  border: 0;
+  border-bottom: solid 2px #2c3e50;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  width: 20%;
+  padding: 0.4rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form__button {
+  border: solid 2px #e74c3c;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+
+input[type="text"] { 
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+  -webkit-text-fill-color: #2c3e50 !important;
+}
+
+.float__left {
+  float: right;
+  /* margin-left: 3em; */
+}
+.Pokemon__type
+{
+  font-size: 18px;
+  font-weight: 400;
+}
+.energy
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.colorless
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/1/1d/Colorless-attack.png/20px-Colorless-attack.png);
+}
+.fire
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/a/ad/Fire-attack.png/20px-Fire-attack.png);
+}
+.lightning
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/0/04/Lightning-attack.png/20px-Lightning-attack.png);
+}
+.grass
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/2/2e/Grass-attack.png/20px-Grass-attack.png);
+}
+.water
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/1/11/Water-attack.png/20px-Water-attack.png);
+}
+.fighting
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/4/48/Fighting-attack.png/20px-Fighting-attack.png);
+}
+.psychic
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/e/ef/Psychic-attack.png/20px-Psychic-attack.png);
+}
+.grass
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/2/2e/Grass-attack.png/20px-Grass-attack.png);
+}
+.grass
+{
+  background-image: url(https://cdn.bulbagarden.net/upload/thumb/2/2e/Grass-attack.png/20px-Grass-attack.png);
 }
