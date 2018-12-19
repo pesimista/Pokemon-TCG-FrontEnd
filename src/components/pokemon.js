@@ -85,7 +85,7 @@ const Pokemon = (props) =>
       </section>
 
       </div>
-      <img className="Pokemon__image" src={TCG.imageUrlHiRes} alt={TCG.id} />
+      <img className="Pokemon__image" src={TCG.imageUrlHiRes} alt={TCG.name} />
     </div>
   );
 }

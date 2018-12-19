@@ -32,14 +32,14 @@ class Home extends Component
 
     if(typeof json !== 'undefined' && json !== null )
     {
-      console.log("Local storage |", json);
+      // console.log("Local storage |", json);
       data.cards = JSON.parse(json);
     }
     else
     {
       const api_call = await fetch(`https://api.pokemontcg.io/v1/cards?setCode=base1`);
       data = await api_call.json();
-      console.log("API CALL |", data);
+      // console.log("API CALL |", data);
     }
     
     // const api_call = await fetch(`https://api.pokemontcg.io/v1/cards?setCode=base1`);

@@ -5,7 +5,16 @@ body {
   --whiteish: #ebebeb;
   font-family: "Open Sans", "Roboto", "Segoe UI";
 }
-
+.mx
+{
+  margin: 0px 10em;
+  margin-bottom: 5em;
+  display: flex;
+}
+.mx > *
+{
+  margin: 0px 20px;
+}
 .d-flex
 {
   display: flex;
@@ -15,11 +24,13 @@ body {
 {
   flex-wrap: wrap;
 }
-/* .Pokemon__basic
+.Pokemon__basic
 {
-  display: inline-block;
-  margin-right: 400px;
-} */
+  /* display: inline-block;
+  margin-right: 400px; */
+  margin-left: auto;
+  max-width: 550px;
+}
 .Pokemon__info
 {
   margin: 1em .5em;
@@ -84,16 +95,7 @@ body {
   margin: 0px 5em;
   text-align: center;
 }
-.mx
-{
-  margin: 0px 10em;
-  margin-bottom: 5em;
-  display: flex;
-}
-.mx > *
-{
-  margin: 0px 20px;
-}
+
 
 a {
   /* color: #e74c3c !important; */
@@ -151,7 +153,9 @@ button:focus {
   margin-top: 0px;
 }
 .Pokemon__image {
- height: 500px;
+  height: 500px;
+  width: 364px;
+  margin-right: auto;
 }
 
 .recipes__subtitle span {
