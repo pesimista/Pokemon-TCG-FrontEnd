@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Pokemon-TCG-FrontEnd/precache-manifest.da901f557908902d364b123ac0dc1b46.js"
+  "/Pokemon-TCG-FrontEnd/precache-manifest.33cda8fdeb1e351cbb3cb182bea3052b.js"
 );
 
 workbox.clientsClaim();

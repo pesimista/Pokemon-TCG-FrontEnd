@@ -1,13 +1,13 @@
 {
   "main.css": "/Pokemon-TCG-FrontEnd/static/css/main.8ca72191.chunk.css",
-  "main.js": "/Pokemon-TCG-FrontEnd/static/js/main.e3f993d7.chunk.js",
-  "main.js.map": "/Pokemon-TCG-FrontEnd/static/js/main.e3f993d7.chunk.js.map",
+  "main.js": "/Pokemon-TCG-FrontEnd/static/js/main.822c84f2.chunk.js",
+  "main.js.map": "/Pokemon-TCG-FrontEnd/static/js/main.822c84f2.chunk.js.map",
   "static/js/1.bd88a1d9.chunk.js": "/Pokemon-TCG-FrontEnd/static/js/1.bd88a1d9.chunk.js",
   "static/js/1.bd88a1d9.chunk.js.map": "/Pokemon-TCG-FrontEnd/static/js/1.bd88a1d9.chunk.js.map",
   "runtime~main.js": "/Pokemon-TCG-FrontEnd/static/js/runtime~main.04b2da1a.js",
   "runtime~main.js.map": "/Pokemon-TCG-FrontEnd/static/js/runtime~main.04b2da1a.js.map",
   "static/css/main.8ca72191.chunk.css.map": "/Pokemon-TCG-FrontEnd/static/css/main.8ca72191.chunk.css.map",
   "index.html": "/Pokemon-TCG-FrontEnd/index.html",
-  "precache-manifest.da901f557908902d364b123ac0dc1b46.js": "/Pokemon-TCG-FrontEnd/precache-manifest.da901f557908902d364b123ac0dc1b46.js",
+  "precache-manifest.33cda8fdeb1e351cbb3cb182bea3052b.js": "/Pokemon-TCG-FrontEnd/precache-manifest.33cda8fdeb1e351cbb3cb182bea3052b.js",
   "service-worker.js": "/Pokemon-TCG-FrontEnd/service-worker.js"
 }
