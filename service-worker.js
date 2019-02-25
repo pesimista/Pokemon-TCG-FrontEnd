@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pokemonTCGG/precache-manifest.5b7f4208ac7d04cfe24bd20af0e72e19.js"
+  "/Pokemon-TCG-FrontEnd/precache-manifest.0aa86f40f27bbf246923ccab54665aef.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pokemonTCGG/index.html", {
+workbox.routing.registerNavigationRoute("/Pokemon-TCG-FrontEnd/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

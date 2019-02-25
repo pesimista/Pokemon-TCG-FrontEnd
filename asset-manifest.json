@@ -1,13 +1,13 @@
 {
-  "main.css": "/pokemonTCGG/static/css/main.8ca72191.chunk.css",
-  "main.js": "/pokemonTCGG/static/js/main.15350099.chunk.js",
-  "main.js.map": "/pokemonTCGG/static/js/main.15350099.chunk.js.map",
-  "static/js/1.bd88a1d9.chunk.js": "/pokemonTCGG/static/js/1.bd88a1d9.chunk.js",
-  "static/js/1.bd88a1d9.chunk.js.map": "/pokemonTCGG/static/js/1.bd88a1d9.chunk.js.map",
-  "runtime~main.js": "/pokemonTCGG/static/js/runtime~main.9ff0fb9c.js",
-  "runtime~main.js.map": "/pokemonTCGG/static/js/runtime~main.9ff0fb9c.js.map",
-  "static/css/main.8ca72191.chunk.css.map": "/pokemonTCGG/static/css/main.8ca72191.chunk.css.map",
-  "index.html": "/pokemonTCGG/index.html",
-  "precache-manifest.5b7f4208ac7d04cfe24bd20af0e72e19.js": "/pokemonTCGG/precache-manifest.5b7f4208ac7d04cfe24bd20af0e72e19.js",
-  "service-worker.js": "/pokemonTCGG/service-worker.js"
+  "main.css": "/Pokemon-TCG-FrontEnd/static/css/main.8ca72191.chunk.css",
+  "main.js": "/Pokemon-TCG-FrontEnd/static/js/main.6cde4ae4.chunk.js",
+  "main.js.map": "/Pokemon-TCG-FrontEnd/static/js/main.6cde4ae4.chunk.js.map",
+  "static/js/1.bd88a1d9.chunk.js": "/Pokemon-TCG-FrontEnd/static/js/1.bd88a1d9.chunk.js",
+  "static/js/1.bd88a1d9.chunk.js.map": "/Pokemon-TCG-FrontEnd/static/js/1.bd88a1d9.chunk.js.map",
+  "runtime~main.js": "/Pokemon-TCG-FrontEnd/static/js/runtime~main.04b2da1a.js",
+  "runtime~main.js.map": "/Pokemon-TCG-FrontEnd/static/js/runtime~main.04b2da1a.js.map",
+  "static/css/main.8ca72191.chunk.css.map": "/Pokemon-TCG-FrontEnd/static/css/main.8ca72191.chunk.css.map",
+  "index.html": "/Pokemon-TCG-FrontEnd/index.html",
+  "precache-manifest.0aa86f40f27bbf246923ccab54665aef.js": "/Pokemon-TCG-FrontEnd/precache-manifest.0aa86f40f27bbf246923ccab54665aef.js",
+  "service-worker.js": "/Pokemon-TCG-FrontEnd/service-worker.js"
 }
