@@ -8,16 +8,18 @@ import Contact from './components/contact';
 import Error from './components/Error';
 import Navigation from './components/nav';
 
+
+
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL} >
         <div>
           <Navigation/>
           <Switch>
-            <Route path="/contact" component={Contact} />
-            <Route path="/about/:id" component={About} />
-            <Route path="/" component={Home} exact />
+            <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
+            <Route path={`${process.env.PUBLIC_URL}/about/:id`} component={About} />
+            <Route path={`${process.env.PUBLIC_URL}/`} component={Home} exact />
             <Route component={Error}/>
           </Switch>
         </div>

@@ -10,7 +10,7 @@ class Home extends Component
   };
   render()
   {
-    console.log("Render   |", this.state.TCG);
+    //console.log("Render   |", this.state.TCG);
     return(
       <div className='main'>
       {/*<form onSubmit={this.getRecipe} style={{ marginBottom:"2rem" }}>

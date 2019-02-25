@@ -18,7 +18,7 @@ const Card = props =>
             return(
               <Link key={current.id} className='outSide' 
               to={{ 
-                pathname: `/about/${current.id}`,
+                pathname: `${process.env.PUBLIC_URL}/about/${current.id}`,
                 state: { 
                   TCG : current.name,
                   id : current.id

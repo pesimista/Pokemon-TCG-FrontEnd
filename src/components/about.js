@@ -34,7 +34,7 @@ class About extends React.Component
 
   render()
   {
-    console.log(this.props);
+    console.log( "Process", process.env.PUBLIC_URL);
     if(this.state.loaded)
     {
       // console.log(this.state.activeTCG.supertype);
@@ -45,7 +45,7 @@ class About extends React.Component
       else if( this.state.activeTCG.supertype === 'Energy' )
         return( <Energy TCG={this.state.activeTCG} /> )
       else 
-        return ( <Redirect to="/error" /> )
+        return ( <Redirect to="/Pokemon-TCG-FrontEnd/error" /> )
     }
 
     else return this.Loading;
